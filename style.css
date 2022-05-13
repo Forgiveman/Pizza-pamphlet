@@ -1,0 +1,58 @@
+
+.body {
+background-color:red;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.pizzas{
+    
+    border-radius: 1em;
+    background-color: red;
+    padding:1em;  
+    margin: 1em;
+}
+.medium {
+    border: 1em solid;
+    background-color: yellow;
+    padding:1em;  
+    margin: 1em;
+    
+}
+.large {
+    border: 1em solid;
+    background-color: yellowgreen;
+    padding:1em;  
+    margin: 1em;
+}
+.small {
+    border: 1em solid;
+    background-color:orange ;
+    padding:1em;  
+    margin: 1em;
+    
+}
+.Contact_Us{
+    background-color: turquoise;
+
+}
+.heading{
+    background-color: silver;
+}
+.picAlign{
+    text-align: right;
+
+}
+@media(min-width:768px){
+    .body {
+background-color:red;
+    } 
+    .pizzas{
+    display:flex;
+    border-radius: 1em;
+    background-color: burlywood;
+
+
+padding:1em;  
+  margin: 1em;
+}
+}
